@@ -1,0 +1,1 @@
+A virtual network that kubernetes uses for routing data between [[Pod|Pods]] , [[Service| Services]], etc.

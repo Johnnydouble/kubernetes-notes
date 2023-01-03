@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"7de9629c6c5807e1","x":55,"y":-694,"width":434,"height":845,"type":"group","label":"Worker Node"},
+		{"id":"a338131b51b5ab14","x":75,"y":-674,"width":394,"height":206,"type":"file","file":"Implementation Details/Kublet.md"},
+		{"id":"56d4209356ec971d","x":75,"y":-468,"width":394,"height":364,"type":"file","file":"Concepts/Physical Abstractions/Pod.md"},
+		{"id":"06451ea5b0261877","x":75,"y":-67,"width":394,"height":198,"type":"file","file":"Implementation Details/Kube Proxy.md"},
+		{"id":"80eece3a5de8f655","x":55,"y":234,"width":434,"height":845,"type":"group","label":"Worker Node"},
+		{"id":"ea58dc5e6a638f96","x":75,"y":254,"width":394,"height":206,"type":"file","file":"Implementation Details/Kublet.md"},
+		{"id":"be4970c51c6d2a82","x":75,"y":460,"width":394,"height":364,"type":"file","file":"Concepts/Physical Abstractions/Pod.md"},
+		{"id":"63d09fdea66ddd0e","x":75,"y":861,"width":394,"height":198,"type":"file","file":"Implementation Details/Kube Proxy.md"},
+		{"id":"777b198086f57ec1","x":-997,"y":4,"width":661,"height":1023,"type":"group","label":"Master Node"},
+		{"id":"f715dd00f9c7926f","x":-974,"y":57,"width":618,"height":250,"type":"file","file":"Implementation Details/Management/API Server.md"},
+		{"id":"3d7e2df1095041c3","x":-653,"y":642,"width":297,"height":355,"type":"file","file":"Implementation Details/Management/Controller Manager.md"},
+		{"id":"f19b21912ad490ca","x":-1017,"y":-67,"width":701,"height":1126,"type":"group","label":"Control Plane (1 to n Master Nodes)"},
+		{"id":"27d1287201bc7aa6","x":35,"y":-749,"width":474,"height":1848,"type":"group","label":"0 to n Worker Nodes"},
+		{"id":"af69408a2f7c7528","x":-1696,"y":-837,"width":2280,"height":2019,"type":"group","label":"Kubernetes Cluster"},
+		{"id":"1c0bbc2a30e8dc2a","x":-1606,"y":127,"width":250,"height":60,"type":"text","text":"API Consumer"},
+		{"id":"250db120a4d5390e","x":-1606,"y":194,"width":250,"height":60,"type":"text","text":"Management API Consumer"},
+		{"id":"65a34948a5c98a17","x":-653,"y":335,"width":297,"height":278,"type":"file","file":"Implementation Details/Management/Scheduler.md"},
+		{"id":"f908e67289232d4b","x":-974,"y":335,"width":296,"height":278,"type":"file","file":"Implementation Details/Management/etcd.md"},
+		{"id":"39c66f90acc30cb1","x":-974,"y":642,"width":296,"height":355,"type":"file","file":"Implementation Details/Management/Cloud Controller Manager.md"}
+	],
+	"edges":[
+		{"id":"6c9516a8f2667b4f","fromNode":"f715dd00f9c7926f","fromSide":"right","toNode":"63d09fdea66ddd0e","toSide":"left"},
+		{"id":"b7d75fae4923918e","fromNode":"f715dd00f9c7926f","fromSide":"right","toNode":"06451ea5b0261877","toSide":"left"},
+		{"id":"f9383af6f4eede32","fromNode":"f715dd00f9c7926f","fromSide":"right","toNode":"ea58dc5e6a638f96","toSide":"left"},
+		{"id":"e726ffaefb6fdfae","fromNode":"f715dd00f9c7926f","fromSide":"right","toNode":"a338131b51b5ab14","toSide":"left"},
+		{"id":"b502b33840d8a0d1","fromNode":"1c0bbc2a30e8dc2a","fromSide":"right","toNode":"f715dd00f9c7926f","toSide":"left"},
+		{"id":"d6ddf3c6735da552","fromNode":"250db120a4d5390e","fromSide":"right","toNode":"f715dd00f9c7926f","toSide":"left"}
+	]
+}

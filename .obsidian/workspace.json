@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "7f6e3644a1083958",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d3451f67e43e8e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd6fd9b902e885e8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Kubernetes Diagram (HL).canvas",
+                "viewState": {
+                  "x": -559.6699049429595,
+                  "y": 245.1266395611209,
+                  "zoom": -0.8833333333333334,
+                  "snapToGrid": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8ac43ca5bc27d65",
+    "type": "split",
+    "children": [
+      {
+        "id": "9da798c861fc7f4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "908f7f83fc1b11bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2421c0633c148168",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f24b04910b535b7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1424c97270dd9992",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fdda5235eac9f0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d7f0d7c9c61b3b1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Kubernetes Diagram (HL).canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a585133def5de11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Kubernetes Diagram (HL).canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4a6486cb98ef2274",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6e59cb1f78178384",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kubernetes Diagram (HL).canvas"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "908f7f83fc1b11bd",
+  "lastOpenFiles": [
+    "Implementation Details/Kube Proxy.md",
+    "Kubernetes Diagram (HL).canvas",
+    "Implementation Details/Kublet.md",
+    "Implementation Details/Management/API Server.md",
+    "Implementation Details/Management/Controller Manager.md",
+    "Kubernetes.md",
+    "Concepts/Physical Abstractions/Master Node.md",
+    "Concepts/Physical Abstractions/Worker Node.md",
+    "Concepts/Physical Abstractions/Node.md",
+    "Implementation Details/Management/Cloud Controller Manager.md"
+  ]
+}
