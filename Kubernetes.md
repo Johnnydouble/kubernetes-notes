@@ -10,7 +10,7 @@ Kubernetes aka k8s is a container orchestration platform that allows you to abst
 - [[Self-healing]]
 - [[Load Balancing]] and [[Service|Service Discovery]]
 - [[Secret]] & [[ConfigMap|Configuration Management]]
-- [[Deployment|Automated rollouts and rollbacks]]
+- [[Deployment|Automated rollouts and rollbacks]] (also see [[Workload]])
 - [[Volumes|Storage Orchestration]]
 - [[Job||Batch Execution]]
 - [[Binpacking|Automatic Binpacking]]

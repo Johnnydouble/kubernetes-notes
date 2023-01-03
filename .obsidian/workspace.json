@@ -4,23 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8d3451f67e43e8e2",
+        "id": "d70af97a3a6b95c6",
         "type": "tabs",
         "children": [
           {
-            "id": "fd6fd9b902e885e8",
+            "id": "b0854fab85a76b33",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Kubernetes Diagram (HL).canvas",
-                "viewState": {
-                  "x": -559.6699049429595,
-                  "y": 245.1266395611209,
-                  "zoom": -0.8833333333333334,
-                  "snapToGrid": false
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -73,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 245.5
   },
   "right": {
     "id": "1424c97270dd9992",
@@ -89,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes Diagram (HL).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes Diagram (HL).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kubernetes Diagram (HL).canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -151,17 +139,58 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "908f7f83fc1b11bd",
+  "floating": {
+    "id": "73abde01d4395f89",
+    "type": "floating",
+    "children": [
+      {
+        "id": "885f1408ab8c2bbc",
+        "type": "window",
+        "children": [
+          {
+            "id": "77a0311f132dbb87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5927b9df9e89d076",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Kubernetes Cluster Diagram.canvas",
+                    "viewState": {
+                      "x": -629.6609932205936,
+                      "y": 255.75122188911075,
+                      "zoom": -0.9466579406783321,
+                      "snapToGrid": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 947,
+        "y": -1415,
+        "width": 1280,
+        "height": 1415,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "b0854fab85a76b33",
   "lastOpenFiles": [
     "Implementation Details/Kube Proxy.md",
-    "Kubernetes Diagram (HL).canvas",
+    "Kubernetes Cluster Diagram.canvas",
     "Implementation Details/Kublet.md",
-    "Implementation Details/Management/API Server.md",
-    "Implementation Details/Management/Controller Manager.md",
     "Kubernetes.md",
-    "Concepts/Physical Abstractions/Master Node.md",
-    "Concepts/Physical Abstractions/Worker Node.md",
-    "Concepts/Physical Abstractions/Node.md",
-    "Implementation Details/Management/Cloud Controller Manager.md"
+    "Objects/Deployment.md",
+    "Implementation Details/Management/Cloud Controller Manager.md",
+    "Implementation Details/Management/Controller Manager.md",
+    "Objects/Service.md",
+    "Implementation Details/Management/API Server.md",
+    "Implementation Details/Management/Scheduler.md"
   ]
 }
