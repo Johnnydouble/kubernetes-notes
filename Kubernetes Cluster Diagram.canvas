@@ -14,8 +14,8 @@
 		{"id":"f19b21912ad490ca","x":-1017,"y":-67,"width":701,"height":1126,"type":"group","label":"Control Plane (1 to n Master Nodes)"},
 		{"id":"27d1287201bc7aa6","x":35,"y":-749,"width":474,"height":1848,"type":"group","label":"0 to n Worker Nodes"},
 		{"id":"af69408a2f7c7528","x":-1696,"y":-837,"width":2280,"height":2019,"type":"group","label":"Kubernetes Cluster"},
-		{"id":"1c0bbc2a30e8dc2a","x":-1606,"y":127,"width":250,"height":60,"type":"text","text":"API Consumer"},
-		{"id":"250db120a4d5390e","x":-1606,"y":194,"width":250,"height":60,"type":"text","text":"Management API Consumer"},
+		{"id":"1c0bbc2a30e8dc2a","x":-1606,"y":100,"width":250,"height":87,"type":"text","text":"Public API Consumer"},
+		{"id":"250db120a4d5390e","x":-1606,"y":194,"width":250,"height":113,"type":"text","text":"Management API Consumer"},
 		{"id":"65a34948a5c98a17","x":-653,"y":335,"width":297,"height":278,"type":"file","file":"Implementation Details/Management/Scheduler.md"},
 		{"id":"f908e67289232d4b","x":-974,"y":335,"width":296,"height":278,"type":"file","file":"Implementation Details/Management/etcd.md"},
 		{"id":"39c66f90acc30cb1","x":-974,"y":642,"width":296,"height":355,"type":"file","file":"Implementation Details/Management/Cloud Controller Manager.md"}
