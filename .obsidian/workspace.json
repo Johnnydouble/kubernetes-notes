@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "d70af97a3a6b95c6",
+        "id": "5ef282d6a66521cc",
         "type": "tabs",
         "children": [
           {
-            "id": "b0854fab85a76b33",
+            "id": "a1a93413417d20c9",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 300
   },
   "right": {
     "id": "1424c97270dd9992",
@@ -139,58 +139,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "73abde01d4395f89",
-    "type": "floating",
-    "children": [
-      {
-        "id": "885f1408ab8c2bbc",
-        "type": "window",
-        "children": [
-          {
-            "id": "77a0311f132dbb87",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5927b9df9e89d076",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "Kubernetes Cluster Diagram.canvas",
-                    "viewState": {
-                      "x": -629.6609932205936,
-                      "y": 255.75122188911075,
-                      "zoom": -0.9466579406783321,
-                      "snapToGrid": false
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 947,
-        "y": -1415,
-        "width": 1280,
-        "height": 1415,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "b0854fab85a76b33",
+  "active": "908f7f83fc1b11bd",
   "lastOpenFiles": [
-    "Implementation Details/Kube Proxy.md",
-    "Kubernetes Cluster Diagram.canvas",
-    "Implementation Details/Kublet.md",
-    "Kubernetes.md",
-    "Objects/Deployment.md",
-    "Implementation Details/Management/Cloud Controller Manager.md",
     "Implementation Details/Management/Controller Manager.md",
-    "Objects/Service.md",
+    "Implementation Details/Management/Cloud Controller Manager.md",
     "Implementation Details/Management/API Server.md",
-    "Implementation Details/Management/Scheduler.md"
+    "Concepts/Physical Abstractions/Volumes.md",
+    "Concepts/Physical Abstractions/Worker Node.md",
+    "Concepts/Physical Abstractions/Pod.md",
+    "Concepts/Physical Abstractions/Cluster.md",
+    "Concepts/Physical Abstractions/Master Node.md",
+    "Concepts/Features/Binpacking.md",
+    "Kubernetes Cluster Diagram.canvas"
   ]
 }
