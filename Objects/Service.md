@@ -6,6 +6,7 @@ Regardless of if a pod dies, a service bound to a particular pod will persist.
 - NodePort: a service that exposes a Pod through a port on its [[Node]]
 - ClusterIP: a service that creates a virtual IP to facilitate communication between different services within a [[Cluster]]
 - LoadBalancer: creates/provisions a load balancer to a set of servers in a [[Cluster]]
+- *ExternalName:* a service that maps to a specific internal ip. (Uncommon)
 
 
 Services are generally best suited for communication between pods.
