@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5ef282d6a66521cc",
+        "id": "d70af97a3a6b95c6",
         "type": "tabs",
         "children": [
           {
-            "id": "a1a93413417d20c9",
+            "id": "b0854fab85a76b33",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Objects/Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd4d40c44b06e875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/ClusterIP Caveats.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dae",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 245.5
   },
   "right": {
     "id": "1424c97270dd9992",
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Private/ClusterIP Caveats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Private/ClusterIP Caveats.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Private/ClusterIP Caveats.md"
+              }
             }
           }
         ],
@@ -139,17 +160,58 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "908f7f83fc1b11bd",
+  "floating": {
+    "id": "73abde01d4395f89",
+    "type": "floating",
+    "children": [
+      {
+        "id": "885f1408ab8c2bbc",
+        "type": "window",
+        "children": [
+          {
+            "id": "77a0311f132dbb87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5927b9df9e89d076",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Kubernetes Cluster Diagram.canvas",
+                    "viewState": {
+                      "x": -491.63969453430286,
+                      "y": 402.73494256801547,
+                      "zoom": -0.9466579406783321,
+                      "snapToGrid": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 411,
+        "y": 54,
+        "width": 719,
+        "height": 957,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "cd4d40c44b06e875",
   "lastOpenFiles": [
-    "Implementation Details/Management/Controller Manager.md",
-    "Implementation Details/Management/Cloud Controller Manager.md",
-    "Implementation Details/Management/API Server.md",
-    "Concepts/Physical Abstractions/Volumes.md",
-    "Concepts/Physical Abstractions/Worker Node.md",
-    "Concepts/Physical Abstractions/Pod.md",
-    "Concepts/Physical Abstractions/Cluster.md",
-    "Concepts/Physical Abstractions/Master Node.md",
-    "Concepts/Features/Binpacking.md",
-    "Kubernetes Cluster Diagram.canvas"
+    "Objects/Service.md",
+    "kubectl.md",
+    "Concepts/Features/Horizontal Scaling.md",
+    "Concepts/Workload Resources/DaemonSet.md",
+    "Kubernetes Cluster Diagram.canvas",
+    "Implementation Details/Kublet.md",
+    "Implementation Details/Kube Proxy.md",
+    "Kubernetes.md",
+    "Objects/Deployment.md",
+    "Implementation Details/Management/Cloud Controller Manager.md"
   ]
 }

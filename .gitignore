@@ -1,0 +1,2 @@
+#ignore Private directory and its children
+Private/**
